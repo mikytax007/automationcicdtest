@@ -32,7 +32,7 @@ public class errorvalidation extends basetest {
 	public void loginerrormsg() throws IOException, InterruptedException {
 		String productname = "ZARA COAT 3";
 		 landingpage.loginapplication("kallaa@gmail.com", "Dennys@123");
-       Assert.assertEquals(landingpage.geterrormessage(), "Incorrect email  password."); 
+       Assert.assertEquals(landingpage.geterrormessage(), "Incorrect email or password."); 
 	}
 	@Test
 	public void producterrorvalidation() throws IOException, InterruptedException {
