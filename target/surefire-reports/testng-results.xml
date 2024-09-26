@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="6" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T17:11:16 IST" name="Suite" finished-at="2024-09-26T17:11:39 IST" duration-ms="23328">
+    <groups>
+      <group name="purchasing">
+        <method signature="standalonetest2.submitorder(java.util.HashMap)[pri:0, instance:rahulshetty.Test.standalonetest2@1046d517]" name="submitorder" class="rahulshetty.Test.standalonetest2"/>
+      </group> <!-- purchasing -->
+      <group name="error">
+        <method signature="errorvalidation.loginerrormsg()[pri:0, instance:rahulshetty.Test.errorvalidation@1608bcbd]" name="loginerrormsg" class="rahulshetty.Test.errorvalidation"/>
+      </group> <!-- error -->
+    </groups>
+    <test started-at="2024-09-26T17:11:16 IST" name="errorvalidationtest" finished-at="2024-09-26T17:11:31 IST" duration-ms="14967">
+      <class name="rahulshetty.Test.errorvalidation">
+        <test-method is-config="true" signature="launchappliation()[pri:0, instance:rahulshetty.Test.errorvalidation@1608bcbd]" started-at="2024-09-26T17:11:16 IST" name="launchappliation" finished-at="2024-09-26T17:11:19 IST" duration-ms="3213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchappliation -->
+        <test-method retried="true" signature="loginerrormsg()[pri:0, instance:rahulshetty.Test.errorvalidation@1608bcbd]" started-at="2024-09-26T17:11:19 IST" name="loginerrormsg" finished-at="2024-09-26T17:11:20 IST" duration-ms="540" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email  password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email  password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at rahulshetty.Test.errorvalidation.loginerrormsg(errorvalidation.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginerrormsg -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshetty.Test.errorvalidation@1608bcbd]" started-at="2024-09-26T17:11:20 IST" name="teardown" finished-at="2024-09-26T17:11:20 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchappliation()[pri:0, instance:rahulshetty.Test.errorvalidation@1608bcbd]" started-at="2024-09-26T17:11:20 IST" name="launchappliation" finished-at="2024-09-26T17:11:23 IST" duration-ms="2611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchappliation -->
+        <test-method signature="loginerrormsg()[pri:0, instance:rahulshetty.Test.errorvalidation@1608bcbd]" started-at="2024-09-26T17:11:23 IST" name="loginerrormsg" finished-at="2024-09-26T17:11:23 IST" duration-ms="477" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email  password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email  password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at rahulshetty.Test.errorvalidation.loginerrormsg(errorvalidation.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginerrormsg -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshetty.Test.errorvalidation@1608bcbd]" started-at="2024-09-26T17:11:23 IST" name="teardown" finished-at="2024-09-26T17:11:24 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchappliation()[pri:0, instance:rahulshetty.Test.errorvalidation@1608bcbd]" started-at="2024-09-26T17:11:24 IST" name="launchappliation" finished-at="2024-09-26T17:11:27 IST" duration-ms="3271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchappliation -->
+        <test-method signature="producterrorvalidation()[pri:0, instance:rahulshetty.Test.errorvalidation@1608bcbd]" started-at="2024-09-26T17:11:27 IST" name="producterrorvalidation" finished-at="2024-09-26T17:11:31 IST" duration-ms="3946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- producterrorvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshetty.Test.errorvalidation@1608bcbd]" started-at="2024-09-26T17:11:31 IST" name="teardown" finished-at="2024-09-26T17:11:31 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- rahulshetty.Test.errorvalidation -->
+    </test> <!-- errorvalidationtest -->
+    <test started-at="2024-09-26T17:11:16 IST" name="submitordertest" finished-at="2024-09-26T17:11:39 IST" duration-ms="23328">
+      <class name="rahulshetty.Test.standalonetest2">
+        <test-method is-config="true" signature="launchappliation()[pri:0, instance:rahulshetty.Test.standalonetest2@1046d517]" started-at="2024-09-26T17:11:16 IST" name="launchappliation" finished-at="2024-09-26T17:11:19 IST" duration-ms="2808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchappliation -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:rahulshetty.Test.standalonetest2@1046d517]" started-at="2024-09-26T17:11:19 IST" name="submitorder" data-provider="getdata" finished-at="2024-09-26T17:11:26 IST" duration-ms="6995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Dennys@123, product=ZARA COAT 3, email=kalla@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshetty.Test.standalonetest2@1046d517]" started-at="2024-09-26T17:11:26 IST" name="teardown" finished-at="2024-09-26T17:11:26 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchappliation()[pri:0, instance:rahulshetty.Test.standalonetest2@1046d517]" started-at="2024-09-26T17:11:26 IST" name="launchappliation" finished-at="2024-09-26T17:11:29 IST" duration-ms="2456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchappliation -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:rahulshetty.Test.standalonetest2@1046d517]" started-at="2024-09-26T17:11:29 IST" name="submitorder" data-provider="getdata" finished-at="2024-09-26T17:11:36 IST" duration-ms="7121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Dennys@123, product=ADIDAS ORIGINAL, email=kalli@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshetty.Test.standalonetest2@1046d517]" started-at="2024-09-26T17:11:36 IST" name="teardown" finished-at="2024-09-26T17:11:36 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchappliation()[pri:0, instance:rahulshetty.Test.standalonetest2@1046d517]" started-at="2024-09-26T17:11:36 IST" name="launchappliation" finished-at="2024-09-26T17:11:38 IST" duration-ms="2377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchappliation -->
+        <test-method signature="orderhistorytest()[pri:0, instance:rahulshetty.Test.standalonetest2@1046d517]" started-at="2024-09-26T17:11:38 IST" name="orderhistorytest" finished-at="2024-09-26T17:11:39 IST" depends-on-methods="rahulshetty.Test.standalonetest2.submitorder" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistorytest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:rahulshetty.Test.standalonetest2@1046d517]" started-at="2024-09-26T17:11:39 IST" name="teardown" finished-at="2024-09-26T17:11:39 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- rahulshetty.Test.standalonetest2 -->
+    </test> <!-- submitordertest -->
+  </suite> <!-- Suite -->
+</testng-results>
